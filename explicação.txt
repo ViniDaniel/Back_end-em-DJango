@@ -26,3 +26,8 @@ pip install django depois
 
 git checkout -b 01-django
 git branch
+
+Para atualizar usa
+Git add .
+Git commit -m ""
+git push depois
