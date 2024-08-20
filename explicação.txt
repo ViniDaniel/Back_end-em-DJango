@@ -1,0 +1,28 @@
+Git add no terminal para enviar os dados
+
+git add .
+
+depois fazer o git commit -m
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+depois isso dnv
+git commit -m "Commit e intalação do venv " 
+
+git log depois
+
+depois git push
+
+./.venv/Scripts/activate -- (dará erro devido ao powerShell pois está travado)
+
+Get-ExecutionPolicy (para saber como está)
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (para habilitar)
+
+./.venv/Scripts/activate (para ativar agr)
+
+pip install django depois
+
+git checkout -b 01-django
+git branch
