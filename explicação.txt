@@ -20,9 +20,12 @@ Get-ExecutionPolicy (para saber como está)
 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (para habilitar)
 
-./.venv/Scripts/activate (para ativar agr)
+./.venv/Scripts/activate (para ativar agr o .venv)
 
+dentro do venv
 pip install django depois
+
+django-admin startproject setup .
 
 git checkout -b 01-django
 git branch
@@ -31,3 +34,4 @@ Para atualizar usa
 Git add .
 Git commit -m ""
 git push depois
+isso tudo dentro do .venv
