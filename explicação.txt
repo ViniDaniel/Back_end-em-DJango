@@ -37,3 +37,7 @@ git push depois
 isso tudo dentro do .venv
 
 python manage.py runserver
+
+no venv use python manage.py startapp nome_da_pasta
+
+vai na pasta settings.py em INSTALLED_APPS, coloque no final 'todos.apps.TodosConfig', ele faz ligação com a pasta todos, na area apps.py.
