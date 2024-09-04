@@ -41,3 +41,17 @@ python manage.py runserver
 no venv use python manage.py startapp nome_da_pasta
 
 vai na pasta settings.py em INSTALLED_APPS, coloque no final 'todos.apps.TodosConfig', ele faz ligação com a pasta todos, na area apps.py.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+PARA CADASTRAR A HTML TEM QUE CADASTRAR NA VIWES 
+
+
+
+ python manage.py migrate (serve para migrae para migrar do models e dados novos para o slite)
+
+ python manage.py makemigrations (refletiu a migração que foi criada)
+
+ pip install black (faz uma formatação automática, ajuda a limpar o código)
+
+ todo_list (diz para o django q essa tela será uma lista)
