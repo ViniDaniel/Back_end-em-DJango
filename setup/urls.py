@@ -18,9 +18,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from todos.views import TodoListView
-from todos.views import TodoCreateView
+from todos.views import TodoCreateView, TodoUpdateView
 
-urlpatterns = [path("admin/", admin.site.urls),
-    path("", TodoListView.as_view(), name="todo_list"),
-    path("create", TodoCreateView.as_view(), name="todo_create")] #quando for no caminho vazio, abre o todo.view
-
+urlpatterns = [
+    path("admin/", admin.site.urls),
+    path(
+        "", TodoListView.as_view(), name="todo_list"
+    ),  # quando for no caminho vazio, abre o todo.view
+    path("create", TodoCreateView.as_view(), name="todo_create"),
+    path("update/<int:pk>", TodoUpdateView.as_view(), name="update_view"),
+]  # int pk e para dizer que é um iteiro, já q é 0o id, e q e uma chave primaria
