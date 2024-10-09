@@ -55,3 +55,6 @@ PARA CADASTRAR A HTML TEM QUE CADASTRAR NA VIWES
  pip install black (faz uma formatação automática, ajuda a limpar o código)
 
  todo_list (diz para o django q essa tela será uma lista)
+
+
+ csrf_token e um token que bloqueia requiçõies fora do meu sistema
